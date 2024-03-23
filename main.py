@@ -1,10 +1,12 @@
 from random import choice
 import time as tm
 
+#The original enchantments of Minecraft
 enchants = ['水下速掘', '节肢杀手', '爆炸保护', '引雷', '绑定诅咒', '消失诅咒', '深海探索者', '效率', '摔落缓冲',
             '火焰附加', '火焰保护', '火矢', '时运', '冰霜行者', '穿刺', '无限', '击退', '抢夺', '忠诚', '海之眷顾',
             '饵钓', '经验修补', '多重射击', '穿透', '力量', '弹射物保护', '保护', '冲击', '快速装填', '水下呼吸',
             '激流', '锋利', '精准采集', '亡灵杀手', '灵魂疾行', '迅捷潜行', '横扫之刃', '荆棘', '耐久']
+#The enchantments from a plugin of minecraft
 enchants_special = ['aquaman', 'autoreel', 'baneofnetherspawn', 'blastmining', 'blindness', 'bomber', 'bunnyhop',
                     'coldsteel', 'confusingarrows', 'confusion', 'cure', 'curseofbreaking', 'curseofdeath',
                     'curseofdrownedzombie', 'curseoffragility', 'curseofmediocrity', 'curseofmisfortune', 'cutter',
